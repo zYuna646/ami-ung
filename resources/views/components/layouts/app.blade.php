@@ -16,6 +16,7 @@
 		<livewire:section.navbar />
 		{{ $slot }}
 		@stack('scripts')
+		@stack('scripts2')
 	</body>
 
 </html>
